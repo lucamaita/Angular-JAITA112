@@ -1,0 +1,13 @@
+<!-- <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Username</mat-label>
+    <input matInput (input)="onInput($event)">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="onClick($event)">Gioca</button> -->
+
+
+<ul>
+  <li *ngFor="let persona of persone; index as i">
+    <div class="cerchio" [ngClass]="persona.isOnline ? 'cerchioOnline' : 'cerchioOffline'">i</div>
+    <p>{{persona.nome}} {{persona.cognome}}</p>
+  </li>
+</ul>

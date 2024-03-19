@@ -1,0 +1,4 @@
+(da cmd di node, andare nella repo) ng new nome-progetto --no-standalone
+ng serve / npm start
+ng g c prova (ng generate component nomeComponenent)
+alt+shift+f (formattazione auto(prettier))
